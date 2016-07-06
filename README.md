@@ -1,5 +1,8 @@
 # Vim覚え書き
 * [保存と終了](https://github.com/KazushiKawamura/Vim#保存と終了)
+* [モード切替](https://github.com/KazushiKawamura/Vim#モード切替)
+* [カーソル移動](https://github.com/KazushiKawamura/Vim#カーソル移動)
+* [通常モード](https://github.com/KazushiKawamura/Vim#通常モード)
 
 ## 保存と終了
 
@@ -20,5 +23,24 @@
 |O|カーソル行を改行してから挿入モードへ(カーソル行の上に挿入)|
 |Esc|通常モードへ|
 
+## カーソル移動
 
+|command|operation|
+|---|---|
+|:{数字}|{数字}行に移動|
+|:0|先頭行に移動|
+|:$|最終行に移動|
+|^|行の先頭に移動|
+|$|行の末尾に移動|
+
+## 通常モード
+
+|command|operation|
+|---|---|
+|x|カーソルの後ろを一字削除|
+|yy|行コピー|
+|dd|行カット|
+|p|ペースト|
+|{数字}yy|{数字}行コピー|
+|{数字}dd|{数字}行カット|
 
