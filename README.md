@@ -1,8 +1,9 @@
-# Vim覚え書き
+Vim覚え書き
 * [保存と終了](https://github.com/KazushiKawamura/Vim#保存と終了)
 * [モード切替](https://github.com/KazushiKawamura/Vim#モード切替)
 * [カーソル移動](https://github.com/KazushiKawamura/Vim#カーソル移動)
 * [通常モード](https://github.com/KazushiKawamura/Vim#通常モード)
+* [ウィンドウ分割](https://github.com/KazushiKawamura/Vim#ウィンドウ分割)
 
 ## 保存と終了
 
@@ -43,4 +44,14 @@
 |p|ペースト|
 |{数字}yy|{数字}行コピー|
 |{数字}dd|{数字}行カット|
+|u|undo<-->redo|
+
+## ウィンドウ分割
+
+|command|operation|
+|---|---|
+|:vs|ウィンドウを縦方向に分割し，左側に新しいファイルを表示|
+|:sp|ウィンドウを横方向に分割し，上側に新しいファイルを表示|
+|Ctrl ww|カーソルを次のウィンドウに移動|
+|Ctrl wr|ウィンドウを下方向，右方向に移動|
 
