@@ -4,6 +4,7 @@
 * [カーソル移動](https://github.com/KazushiKawamura/Vim#カーソル移動)
 * [通常モード](https://github.com/KazushiKawamura/Vim#通常モード)
 * [ウィンドウ分割](https://github.com/KazushiKawamura/Vim#ウィンドウ分割)
+* [文字列検索](https://github.com/KazushiKawamura/Vim#文字列検索)
 
 ## 保存と終了
 
@@ -57,3 +58,12 @@
 |Ctrl ww|カーソルを次のウィンドウに移動|
 |Ctrl wr|ウィンドウを下方向，右方向に移動|
 
+## 文字列検索
+|command|operation|
+|---|---|
+|/{検索文字列}|下方向に{検索文字列}を検索|
+|?{検索文字列}|上方向に{検索文字列}を検索|
+|*|カーソル位置の単語を下方向に検索|
+|#|カーソル位置の単語を上方向に検索|
+|n|/や?で検索した後，順方向に次の検索結果にジャンプ|
+|N|/や?で検索した後，逆方向に次の検索結果にジャンプ|
